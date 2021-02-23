@@ -21,13 +21,14 @@
 
  .hero-form {
      border: 3px solid #024e76;
-     background-color: #fce138;
+     background-color: rgba(255, 225, 56, 0.8);
      padding: 20px;
-     border-color: #024e76;
+     color: #024e76;
      width: 40%;
      margin: 3.5%;
-     box-shadow: 0 0 10px rgba(252, 225, 56, 0.8);
      border-radius: 15px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     
  }
 
  .hero-form p {
@@ -249,13 +250,7 @@
      background-position: 80%;
  }
 
- header nav ul li a:hover {
-     background: #fce138;
-     color: #024e76;
-     border-radius: 15px;
-     text-shadow: none;
- }
-
+  
  header h1 {
      font-weight: bold;
      font-size: 36px;
@@ -288,6 +283,13 @@
      font-size: 1.55vw;
      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
  }
+
+ header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+ }    
 
  /* end */
 
